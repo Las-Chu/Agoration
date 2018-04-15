@@ -1,0 +1,89 @@
+<html>
+<head>
+<meta charset="utf-8">
+<meta content="stuff, to, help, search, engines, not" name="keywords">
+<meta content="What this page is about." name="description">
+<meta content="Display Webcam Stream" name="title">
+<title>Display Webcam Stream</title>
+
+<style>
+#container {
+    margin: 0px auto;
+    width: 500px;
+    height: 375px;
+    border: 10px #333 solid;
+}
+#videoElement {
+    width: 500px;
+    height: 375px;
+    background-color: #666;
+}
+<script src="//static.miniclipcdn.com/js/game-embed.js"></script>
+@font-face:{
+	font-family:#ffb8b8;
+}
+.a{
+	font-size:45px;
+	text-align:center;
+	
+
+}
+.img{
+width:100px;
+height:100px;
+}
+.b{
+
+	background-size: 100% 100%;
+	transition:all 2s;
+
+
+}
+.b:hover{
+	transform:scale(1.1,1.1);
+
+
+}
+</style>
+</head>
+
+<body bgcolor="#487eb0">
+<table width="90%" height="400" border="0" align="center" bgcolor="#dcdde1" cellpadding="15" cellspacing="15">
+<tr>
+<td align="center" class="a" width="50%"><font face="georgia">There! That's good! Let's take a further step...now I want you to smile at someone (smile at the camera first)</td>
+    <td><video autoplay="true" id="videoElement">
+     
+    </video>
+</div>
+<script>
+ var video = document.querySelector("#videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    // do something
+}
+</script></td>
+<td align="right" width="50%">
+<p style="text-align:center;"><a href="last.<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>"><a href="home.html"><img src="image/arrow.png" width="60%" height="200" class="c"></a></td>
+
+</table>
+
+</body>
+</html>
